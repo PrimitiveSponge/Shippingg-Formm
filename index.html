@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Shipping Form</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="function.js"></script>
+
+    </head>
+
+    <body class="shippingform">
+
+        <h1>Importance of Forms</h1>
+        
+        <form action="putToast">
+
+            <label for="">Reset button</label>
+            <input type="reset">
+ 
+            <br>
+            <br>
+            <br>
+
+            <label for="">1.) How old are you?</label>
+           <input type="text">
+
+           <br>
+           <br>
+            
+            <label for="">2.) Your name and social security number</label>
+            <input type="text">
+
+            <br>
+            <br>
+
+            <form action="getToast">
+
+           <label for="">3.) Have you ever been or currently are in a relationship?</label>
+           <br>
+           Yes<input type="radio" name="Radio" id="radio" onclick="getToast()"> <br>
+           No <input type="radio">
+
+        </form>
+
+           <br>
+           <br>
+
+           <form action="getToast">
+
+           <label for="">4.) Are you...</label> <br>
+           Funny?<input type="checkbox"> <br>
+           Smart?<input type="checkbox"> <br>
+           Not a Pedafil?<input type="checkbox" name="Checkbox" id="checkbox" onclick="putToast()"> <br>
+           Owns a Boat?<input type="checkbox"> <br>
+           yes<input type="checkbox"> <br>
+           no<input type="checkbox"> <br>
+           A girl?<input type="checkbox">
+
+        </form>
+
+           <br>
+           <br>
+
+        <form action="theToast">
+
+           <label for="">5.) Click here if your shorter then me (I'm 5"5)</label>
+           <input type="button" name="Button" id="button" onclick="theToast()">
+           
+        </form>
+
+           <br>
+           <br>
+
+           <form action="putToast">
+
+           
+           <label for="">6.) Your email and Phone Number:</label>
+           <input type="email">
+
+           <br>
+           <br>
+
+           <label for="">7.) Rate your personality from 1 to however far this goes: </label>
+           <input type="number">
+
+           <br>
+           <br>
+
+           <label for="">8.) Rate your looks on this range</label>
+           <input type="range">
+
+           <br>
+           <br>
+
+        </form>
+
+           <form action="yesToast">
+
+           <label for="">9.) Are you older than 18?</label> <br>
+           Yes<input type="radio" name="Radio" id="radio" onclick="yesToast()"> 
+           <br>
+           No <input type="radio">
+
+           <br>
+           <br>
+
+        </form>
+
+        <form action="notToast">
+
+        <label for="">10.) Are you a 250 pound dude named Chuck who lives in his mother's basement and prey on young men online?</label> <br>
+        Yes <input type="radio" name="Radio" id="radio" onclick="notToast()"> <br>
+        No <input type="radio">
+
+        </form>
+
+        <form action="putToast">
+
+           <br>
+           <br>
+           
+           <label for=""></label>
+           <input type="submit">
+
+        </form>
+
+
+
+    </body>
+
+</html>
